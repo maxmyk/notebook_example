@@ -277,6 +277,7 @@ def research():
 
     my_notebook = NoteBook('First notebook')
     assert isinstance(my_notebook, NoteBook)
+    assert isinstance(str(my_notebook), str)
     my_notebook.create_note('Just a note in a first notebook',
                             'My note Lol', ['#436', '123'], True)
     my_notebook.create_note('Another note in a notebook',
